@@ -1,0 +1,26 @@
+expo init igniteteams --npm
+npm install --save-dev @types/react@17.0.21
+
+Download file assets:
+https://drive.google.com/drive/folders/1oxUqpPHuXXXl-lwzOd4SEbATLkl9KhTU
+
+npm install --save-dev babel-plugin-module-resolver
+
+npm i styled-components, and fonts:
+expo install expo-font @expo-google-fonts/roboto
+
+icons:
+npm install --save phosphor-react-native
+expo install react-native-svg
+
+
+For navigation into the app:
+https://reactnavigation.org/docs/getting-started/
+npm install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+
+https://reactnavigation.org/docs/hello-react-navigation
+npm install @react-navigation/native-stack
+
+https://docs.expo.dev/versions/latest/sdk/async-storage/
+expo install @react-native-async-storage/async-storage
